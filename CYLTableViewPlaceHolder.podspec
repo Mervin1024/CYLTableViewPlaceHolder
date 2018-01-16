@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "ChenYilong" => "luohanchenyilong@163.com" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/ChenYilong/CYLTableViewPlaceHolder.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/Mervin1024/CYLTableViewPlaceHolder.git", :commit => "9f25cc5e05049f99cac37635cab19339a6eecc1e" }
   s.source_files  = 'CYLTableViewPlaceHolder', 'CYLTableViewPlaceHolder/**/*.{h,m}'
   s.requires_arc = true
 end
